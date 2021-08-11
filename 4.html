@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PROJECT-ACM
+        </title>
+        <style>
+          .logo  {
+            margin: 20px;
+            }
+            .backgr{
+                background-image: url("wallpaper.jpg");
+                background-repeat: no-repeat;
+                height: 2500px;
+                width: 1500px;
+                background-attachment: fixed; 
+                
+            }
+            .ol{
+                text-align: left;
+                font-weight: bold;
+                font-size: larger;
+            }
+          
+            p{
+            
+                text-align: left;
+                font-weight: bold;
+                font-size: larger;
+            }
+            
+            h1{
+                text-align:justify;
+                font-weight: bolder;
+                font-size: 100 px;
+                padding: 20px;
+                background-image: url("images\ \(2\).jpg") ;
+            
+                            }
+            .link{
+                font-size: larger;
+                font-weight: bolder;
+            }
+            .form{
+                font-weight: bold;
+                font-size: large;
+                margin-right: 15px;
+                margin-left: 15px ;
+                padding: 15px;
+               border: 20px black;
+               border-radius: 20px;
+                width: 50%;
+                
+            }
+            input[type="submit"]
+            {
+                background-color: cornflowerblue;
+                color: #ddd;
+                padding: 10px;
+                border: none;
+                border-radius:10 px ;
+            }
+            input[type=radio],
+    input.radio {
+      float: left;
+      clear: none;
+      width: auto;
+      margin: 2px 0 0 2px;
+    }
+            input[type="text"],input[type="email"],input[type="number"],select,textarea
+            {
+                background-image: url("download\ \(1\).jpg");
+                width: 100%;
+                padding: 5px;
+                padding-right: 5px;
+                border: 20px;
+            }
+fieldset{
+    background-image: url("images\ \(3\).jpg");
+    border: 2px black;
+}
+
+.navigation {
+  background-color:black;
+  overflow: hidden;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+
+.navigation a {
+  float: none;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: black;
+}
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+        </style>
+<link rel="Stylesheet" href="style1.css">
+    </head>
+    <body>
+       
+        <div class="backgr">
+        <!-- Main project starts-->
+        <h1>
+            A basic and simple website
+        </h1>
+        <div class="navigation">
+            <a class="active" href="#HOME">Home</a>
+            <a href="NEWS">News</a>
+            <a href="CONTACT">Contact</a>
+            <a href="ABOUT">About</a>
+          </div>
+        <img src = "data:image/png;base64,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" ALIGN="right" height = "200px" width="200px" clas="logo">
+        <p id= "Abc">ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.<br><br>
+
+            Founded at the dawn of the computer age, ACM’s reach extends to every part of the globe, with more than half of its nearly 100,000 members residing outside the U.S.  Its growing membership has led to Councils in Europe, India, and China, fostering networking opportunities that strengthen ties within and across countries and technical communities.  Their actions enhance ACM’s ability to raise awareness of computing’s important technical, educational, and social issues around the world. </p>
+        <p>
+            For more queries, use the following options: 
+        </p>
+            <ul>
+             
+                <li class = link > <a href =https://www.acm.org/about-acm/about-the-acm-organization# target="_blank"> Go to the main website</a></li>
+                <li class = link> <a href = https://www.acm.org/membership/membership-benefits target="_blank"> Membership-benefits</a></li>
+                <li class = link> <a href = https://www.acm.org/code-of-ethics target="_blank"> Code of code-of-ethics</a></li>
+            </ul>
+
+                  <img id="img" class="style-scope yt-img-shadow" alt="" width="360" src="https://i.ytimg.com/vi/l_wY0tnvHbw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDI2XHQmerob8kqYzF6LgYBaO5pxg"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+         <h2>MISSION</h2>
+         <p>
+            ACM is a global scientific and educational organization dedicated to advancing the art, science, engineering, and application of computing, <br> serving both professional and public interests by fostering the open exchange of information and by promoting the highest professional and ethical standards.
+         </p>
+         <h2>
+             VISION
+         </h2>
+         <p>
+            ACM will continue to be the premiere global computing society.
+         </p>
+         <h2>
+             CORE VALUES:
+         </h2>
+         <p>
+            1. Technical excellence<br>
+            2. Education and technical advancement<br>
+            3. Ethical computing and technology for positive impact<br>
+            4. Diversity and inclusion<br>
+         </p>
+         <h2>
+             GOALS
+         </h2>
+         <p>
+             <p class= "ol">
+             
+            1. Providing a sustainably open Digital Library in 2025 to increase the visibility and accessibility of the community’s research.<br>
+            2. Continuing to diversify the ACM global community, providing a welcoming community for all.<br>
+            3. Providing the world’s leading venues (conferences, publications, magazines) for research that shapes the future of computing and careers of those in computing.<br>
+            4. Defining enlightened educational frameworks and resources for students and professionals to advance understanding, learning, and evolving of computing and computer science.<br>
+            5. Educating the public and policy makers on the benefits, potential, limits, and pitfalls of computing and computer science.<br>
+            6. Promoting the development and use of environmentally sustainable computing technologies and the adoption of environmentally responsible professional practices.<br>
+            7. Promoting ethical computing to make a positive impact across the global computing community.</p>
+            <br>
+
+            
+       <h2>For more details:</h2>
+       <div class= "form">
+       <fieldset>
+       <p>First name :*<input type="text"></p>
+       <p>Last name :*<input type="text"></p>
+       <fieldset>
+        <legend> Gender:*</legend>
+        male <input type="radio" name= gender id>
+        <p>female <input type="radio" name= gender></p>
+        <p>other <input type="radio" name= gender></p>
+     </fieldset>
+       <p>Contact:*<input type="text"></p>
+       <p>Email:* <input type="Email"></p>
+       
+    <p>Reason to join us:* <textarea type="text" cols ="10" rows ="3"> </textarea></p>   
+    <p>preference for joining us
+        <select name= "type" required>
+            <option value ="" >Select value</option>
+            <option value ="I want to join" >Yes</option>
+            <option value ="I don't want to join" >No</option>
+            <option value ="Not sure yet" >Not sure</option>
+            <option value ="I may join" >Maybe</option>
+        </select>
+
+    </p>
+    <p><input type ="submit" name="Submit!" ></p>
+   
+</fieldset>
+</div>
+<p>
+    Thank you!!!
+</p>
+<p>By- Shreya Joshi</p>
+  <p>BTCSE-AI+DS</p>
+  <p>3rd year</p>
+
+</div>
+<div class="navigation">
+    <a class="active" href="#HOME">Home</a>
+    <a href="NEWS">News</a>
+    <a href="CONTACT">Contact</a>
+    <a href="ABOUT">About</a>
+  </div>
+  
+    </body>
+</html>
